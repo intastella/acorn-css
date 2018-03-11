@@ -1,0 +1,30 @@
+@mixin list {
+	li {
+		@include gap-bottom-xsmall;
+	}
+}
+
+@mixin list-unstyled {
+  list-style: none;
+}
+
+@mixin list-disc {
+  li {
+    @include gap-left-small;
+    list-style-type: disc;
+  }
+}
+
+@mixin list-square {
+  li {
+    @include gap-left-small;
+    list-style-type: square;
+  }
+}
+
+@mixin list-ordered {
+  li {
+    @include gap-left-small;
+		list-style-type: inherit;
+  }
+}

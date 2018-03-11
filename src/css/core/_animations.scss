@@ -1,0 +1,16 @@
+$xshort-duration: 0.1s;
+$short-duration: 0.15s;
+$medium-duration: 0.25s;
+$long-duration: 0.5s;
+$xlong-duration: 0.75s;
+$xxlong-duration: 1s;
+$default-duration: $medium-duration;
+$default-timing: ease-in-out;
+$default-transition: $default-duration $default-timing;
+$short-transition: $short-duration $default-timing;
+
+@mixin animation-spin {
+  @include inline-block; // Required for Firefox
+  will-change: transform;
+  animation: spin 1s infinite linear $xshort-duration; 
+}
