@@ -20,26 +20,21 @@
 
 @mixin inline { 
   display: inline;
-  // visibility: visible;
 }
 @mixin inline-block { 
   display: inline-block;
-  // visibility: visible;
 }
 
 @mixin block { 
   display: block; 
-  // visibility: visible;
 }
 
 @mixin flex {
   display: flex;
-  // visibility: visible;
 }
 
 @mixin hidden { 
   display: none; 
-  // visibility: hidden; // Used to hide from screen readers
 }
 
 // =============================================
@@ -446,15 +441,20 @@
 }
 
 // =============================================
-//							       WIDTH
+//							       SIZES
 // =============================================
 
-@mixin full-width { 
+@mixin width-full { 
   width: 100%; 
 }
 
-@mixin full-height { 
+@mixin height-full { 
   height: 100%; 
+}
+
+@mixin square($size) {
+  width: $size;
+  height: $size;
 }
 
 // =============================================
@@ -469,11 +469,6 @@
 @mixin center { 
   margin-right: auto; 
   margin-left: auto; 
-}
-
-@mixin square($size) {
-  width: $size;
-  height: $size;
 }
 
 @mixin round { 
