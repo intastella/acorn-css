@@ -1,0 +1,10 @@
+{
+  "name": "acorn-css",
+  "version": "0.0.1",
+  "description": "A SASS framework for quickly building custom websites",
+  "repository": "git",
+  "license": "MIT",
+  "devDependencies": {
+    "breakpoint-sass": "2.7.1"
+  }
+}
