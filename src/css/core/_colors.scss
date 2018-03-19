@@ -133,7 +133,7 @@
   }
 }
 
-@mixin type-color-link-white($bg-color-primary-is-parent:null, $importance: null) {
+@mixin type-color-link-white($importance: null) {
   color: $white $importance;
   
   &:hover {
@@ -142,15 +142,5 @@
   
   &:active {
     color: $link-active-color $importance;
-  }
-  
-  @if $bg-color-primary-is-parent == true {
-    .bg-color-primary & {
-      &:hover,
-      &:active {
-        color: $white $importance;
-        text-decoration: underline $importance;
-      }
-    }
   }
 }
