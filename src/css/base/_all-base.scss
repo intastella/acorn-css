@@ -5,8 +5,6 @@
 /* stylelint-enable */
 
 @import '_reset.scss';
-@if $grid-classes == true {
-  @import '_grid.scss';
-}
+@import '_grid.scss';
 @import '_typography.scss';
 @import '_images.scss';
