@@ -71,7 +71,7 @@
 }
 
 @mixin grid-container {
-  @include full-width;
+  @include width-full;
 	@include center;
   @include clear;
   @include container-padding;
