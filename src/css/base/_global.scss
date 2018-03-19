@@ -1,0 +1,18 @@
+html {
+  @include full-height;
+}
+
+body {
+  @include relative;
+  @include flex;
+  @include flex-vertical;
+  @include full-height;
+}
+
+html, 
+body {
+  &.scroll-lock {
+    @include overflow-hidden;
+    @include full-height;
+  }
+}
