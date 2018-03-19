@@ -1,4 +1,6 @@
-img {
-  @include width-full;
-  height: auto;
+@if $images-responsive-by-default == true {
+  img {
+    @include width-full;
+    height: auto;
+  }
 }

@@ -1,4 +1,4 @@
-@if $grid-classes == true {
+@if $grid-class-output == true {
 	// Used to wrap ANYTHING that needs to align to the grid.
 	// Use this to provide a container for grid columns and anything else that will align to the left or right edge of the grid.
 	// In general use this to wrap the entire content of the page.

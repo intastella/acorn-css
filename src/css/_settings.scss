@@ -7,8 +7,6 @@ $gutter: 10px !default;
 $gutter-double: $gutter * 2 !default;
 $gutter-triple: $gutter * 3 !default;
 $gutter-quad: $gutter * 4 !default;
-$image-path: '../img/' !default;
-$font-path: '../fonts/' !default;
 
 // =============================================
 //							   DEFAULT COLORS
@@ -106,7 +104,7 @@ $xxxdpi: min-resolution 3dppx !default;
 // =============================================
 //						        THE GRID
 // =============================================
-$grid-classes: false !default;
+$grid-class-output: false !default;
 
 $small-screen-columns: 4 !default;
 $medium-screen-columns: 8 !default;
@@ -129,6 +127,12 @@ $grid-gutter-large: percentage(strip-unit($large-screen-gutter)/strip-unit($larg
 $grid-outer-margin-small: 3.5% !default;
 $grid-outer-margin-medium: 2.5% !default;
 $grid-outer-margin-large: 20px !default;
+
+// =============================================
+//							       IMAGES
+// =============================================
+
+$images-responsive-by-default: true !default;
 
 // =============================================
 //							       RADII
