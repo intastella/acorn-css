@@ -9,7 +9,7 @@
 // Only needed as a helper to clear a following row of columns to next line.
 // You can use .small-break etc. to clear columns to next line without the need of .grid-row most of the time.
 .grid-row {
-  @include full-width;
+  @include width-full;
 	@include clear;
 }
 
@@ -38,7 +38,7 @@
 // Used for a single full width column on all screen sizes.
 // Can be used without .column
 .column-all {
-	@include full-width;
+	@include width-full;
 	@include clear;
 	@include pull-left;
 	@include column-padding;
