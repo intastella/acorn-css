@@ -4,7 +4,8 @@
   "description": "A SASS framework for quickly building custom websites",
   "repository": "git",
   "license": "MIT",
-  "devDependencies": {
-    "breakpoint-sass": "2.7.1"
+  "dependencies": {
+    "breakpoint-sass": "2.7.1",
+    "sanitize.css": "4.1.0"
   }
 }
