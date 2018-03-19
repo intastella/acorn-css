@@ -4,6 +4,17 @@
   "description": "A SASS framework for quickly building custom websites",
   "repository": "git",
   "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "postcss-discard-duplicates": "^2.1.0",
+    "postcss-focus": "^2.0.0"
+  },
   "dependencies": {
     "breakpoint-sass": "2.7.1",
     "sanitize.css": "4.1.0"
